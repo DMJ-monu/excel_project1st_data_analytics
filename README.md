@@ -1,364 +1,543 @@
+# 📊 Data Analytics Projects
+
+Welcome to my Data Analytics project repository.
+
+This repository contains two practical **Microsoft Excel data analytics projects** created to develop and demonstrate my skills in data cleaning, data analysis, statistical analysis, data visualization, dashboard development, and advanced Excel features.
+
+The two projects show my learning progression from **Excel fundamentals and analytical functions** to **advanced Excel tools such as Power Query, Power Pivot, DAX, Pivot Tables, and data modeling**.
+
+---
 
 # 📊 Project 1 — Excel Fundamentals & Data Analysis
 
-## 🧰 Microsoft Excel Features Used
+## 📌 Project Overview
 
-### 1. Logical Functions
+This project focuses on analyzing the **Data Analyst job market** using Microsoft Excel.
 
-Logical functions were used to apply conditions and make decisions within the dataset.
+The purpose of the project is to understand job demand, required skills, salary levels, and the relationship between technical skills and career opportunities.
 
-**Functions used / practiced:**
+The raw job-market data was organized, analyzed, and converted into meaningful information using Excel functions, statistical calculations, formatting, charts, and data-analysis techniques.
 
-* `IF()`
-* `IFS()`
-* `AND()`
-* `OR()`
-* `NOT()`
-* `IFERROR()`
+The project focuses mainly on **Excel fundamentals and practical data analysis**, rather than advanced data-modeling tools.
 
-**Used for:**
+---
 
-* Creating conditions
-* Categorizing data
-* Checking values
-* Handling errors
-* Creating logical classifications
+## 🖼️ Project Dashboard
+
+### Dashboard Preview
+
+⬇️ **REPLACE THIS WITH YOUR PROJECT 1 DASHBOARD IMAGE**
+
+```markdown
+![Project 1 Dashboard](Project-1/images/dashboard.png)
+```
+
+> 📌 Upload your dashboard screenshot to your GitHub repository first, preferably inside:
+>
+> `Project-1/images/dashboard.png`
+
+The image will then appear directly in your GitHub README.
+
+---
+
+## 🔗 View Project
+
+⬇️ **REPLACE `YOUR_PROJECT_1_LINK` WITH YOUR ACTUAL GITHUB PROJECT LINK**
+
+```markdown
+👉 [View Project 1 on GitHub](YOUR_PROJECT_1_LINK)
+```
 
 Example:
 
-```excel
-=IF(B2>=50000,"High Salary","Low Salary")
+```markdown
+👉 [View Data Analyst Job Market Analysis](https://github.com/yourusername/data-analyst-job-market)
 ```
 
 ---
 
-### 2. Mathematical Functions
+## 🎯 Objectives
 
-Mathematical functions were used for calculations and numerical analysis.
+The main objectives of this project were:
 
-**Functions include:**
+* Analyze the Data Analyst job market.
+* Understand job demand based on available job postings.
+* Identify the most frequently required technical skills.
+* Analyze salary information.
+* Calculate average and median salary values.
+* Compare salaries associated with different skills.
+* Identify high-demand and high-value skills.
+* Practice Excel formulas and statistical functions.
+* Create meaningful charts and visualizations.
+* Present the analysis through a clear Excel dashboard.
+* Convert raw data into useful career-related insights.
 
-* `SUM()`
-* `SUMIF()`
-* `SUMIFS()`
-* `ROUND()`
-* `ROUNDUP()`
-* `ROUNDDOWN()`
-* `ABS()`
-* `MIN()`
-* `MAX()`
+---
 
-**Used for:**
+# 🛠️ Tools & Excel Skills Used
+
+This project mainly focuses on **Microsoft Excel fundamentals and practical analytical techniques**.
+
+## 1. Microsoft Excel
+
+Microsoft Excel was used as the main tool for:
+
+* Data organization
+* Data cleaning
+* Calculations
+* Statistical analysis
+* Data formatting
+* Data visualization
+* Dashboard preparation
+* Extracting insights from the dataset
+
+---
+
+## 2. Logical Functions
+
+Logical functions were used to apply conditions and categorize information.
+
+### Functions Used
+
+```text
+IF()
+IFS()
+AND()
+OR()
+NOT()
+IFERROR()
+```
+
+### Applications
+
+Logical functions were used for:
+
+* Categorizing salary values
+* Creating conditions
+* Classifying records
+* Checking values
+* Handling errors
+* Creating analytical categories
+
+Example:
+
+```excel
+=IF(B2>=90000,"High Salary","Below 90K")
+```
+
+---
+
+## 3. Mathematical Functions
+
+Mathematical functions were used to perform calculations on numerical data.
+
+### Functions Used
+
+```text
+SUM()
+SUMIF()
+SUMIFS()
+ROUND()
+ROUNDUP()
+ROUNDDOWN()
+ABS()
+MIN()
+MAX()
+```
+
+### Applications
+
+These functions were used for:
 
 * Salary calculations
 * Totals
-* Conditional calculations
+* Conditional totals
 * Minimum and maximum values
-* Numerical transformations
+* Numerical calculations
+* Data preparation
 
 ---
 
-### 3. Statistical Functions
+## 4. Statistical Functions
 
 Statistical functions were used to understand salary and job-market data.
 
-**Functions include:**
+### Functions Used
 
-* `AVERAGE()`
-* `MEDIAN()`
-* `MODE()`
-* `COUNT()`
-* `COUNTA()`
-* `COUNTIF()`
-* `COUNTIFS()`
-* `MIN()`
-* `MAX()`
+```text
+AVERAGE()
+MEDIAN()
+MODE()
+COUNT()
+COUNTA()
+COUNTIF()
+COUNTIFS()
+MIN()
+MAX()
+```
 
-**Used for:**
+### Applications
+
+Statistical analysis was used to calculate:
 
 * Average salary
 * Median salary
-* Job counts
+* Job count
 * Skill frequency
-* Salary comparison
-* Statistical summaries
+* Minimum salary
+* Maximum salary
+* Category-wise statistics
+
+The use of **median** was particularly useful for salary analysis because salary values can vary considerably between job postings.
 
 ---
 
-### 4. Data Formatting
+## 5. Data Formatting
 
-Excel formatting tools were used to make the dataset and final analysis easier to understand.
+Excel formatting features were used to make the dataset and analysis easier to read.
 
-**Formatting techniques:**
+### Formatting Techniques
 
 * Number formatting
 * Currency formatting
-* Percentage formatting
 * Date formatting
-* Font and cell formatting
+* Percentage formatting
+* Font formatting
+* Cell alignment
 * Borders
-* Alignment
 * Cell styles
-* Conditional formatting
+* Row and column formatting
+* Custom number formats
 
-**Purpose:**
-
-To present data in a clean, readable, and professional format.
+The goal was to make the final analysis clean, readable, and professional.
 
 ---
 
-### 5. Conditional Formatting
+## 6. Conditional Formatting
 
-Conditional formatting was used to highlight important values and patterns.
+Conditional formatting was used to visually highlight important information.
 
-Examples:
+Examples include:
 
 * Highlighting high salaries
 * Highlighting low salaries
 * Identifying important values
 * Comparing numerical values
-* Using color scales
-* Using data bars
-* Highlighting duplicate or specific values
+* Data bars
+* Color scales
+* Highlighting specific conditions
+
+This helped identify patterns quickly without manually checking every value.
 
 ---
 
-### 6. Charts & Visualization
+## 7. Charts & Data Visualization
 
-Charts were created to convert numerical data into visual insights.
+Charts were used to convert analytical results into easy-to-understand visuals.
 
-**Charts used:**
+### Charts Used
 
-* Column Chart
-* Bar Chart
-* Line Chart
-* Pie Chart
-* Doughnut Chart
-* Area Chart
+* Column Charts
+* Bar Charts
+* Line Charts
+* Pie Charts
+* Doughnut Charts
 
-**Used for analyzing:**
+### Visualization Areas
 
-* Salary distribution
+Charts were used to analyze:
+
 * Job demand
+* Salary comparison
 * Skill popularity
 * Job categories
-* Comparisons between different values
+* Skill-to-salary relationships
+* Other important job-market metrics
 
 ---
 
-### 7. Data Sorting & Filtering
+## 8. Sorting & Filtering
 
-Excel sorting and filtering tools were used to explore the dataset.
+Excel sorting and filtering tools were used to explore specific sections of the dataset.
 
 Examples:
 
-* Sorting salaries from highest to lowest
-* Filtering specific job roles
+* Sorting jobs according to salary
 * Filtering specific skills
+* Filtering job categories
 * Filtering locations
-* Finding specific categories
-* Removing unnecessary records from analysis
+* Identifying high-paying positions
+* Selecting specific records for analysis
 
 ---
 
-### 8. Excel Tables
+## 9. Excel Tables
 
-Excel Tables were used to organize the dataset into a structured format.
+Excel Tables were used to organize data into a structured format.
 
-Benefits include:
+They provide:
 
-* Automatic formatting
+* Automatic filtering
 * Structured references
-* Easier filtering
+* Consistent formatting
 * Dynamic ranges
 * Easier data management
 
 ---
 
-### 9. Excel Collaboration
+## 10. Data Analysis
 
-Excel collaboration features were used to understand and work with spreadsheets in a structured way.
-
-This includes:
-
-* Sharing workbooks
-* Reviewing data
-* Organizing worksheets
-* Maintaining consistent formatting
-* Working with structured spreadsheet data
-
----
-
-### 10. Basic Data Analysis
-
-The project used Excel to perform basic exploratory analysis.
+The project involved basic exploratory data analysis using Excel.
 
 The analysis included:
 
-* Finding trends
-* Comparing values
-* Identifying highest and lowest values
-* Calculating statistics
-* Comparing categories
-* Finding relationships between variables
+* Comparing job categories
+* Finding high-demand skills
+* Comparing salary values
+* Finding maximum and minimum values
+* Calculating statistical measures
+* Identifying patterns
 * Extracting useful insights
 
 ---
 
-## 📌 Project 1 Skill Summary
+## 📊 Analysis
 
-```text
-Microsoft Excel
-│
-├── Logical Functions
-├── Mathematical Functions
-├── Statistical Functions
-├── Data Formatting
-├── Conditional Formatting
-├── Sorting & Filtering
-├── Excel Tables
-├── Charts & Visualization
-├── Basic Data Analysis
-└── Excel Collaboration
+The project analyzes several important areas of the Data Analyst job market.
+
+### Job Demand
+
+The dataset was analyzed to understand the number of job postings associated with different skills and categories.
+
+### Salary Analysis
+
+Salary information was analyzed using statistical functions such as:
+
+* Average
+* Median
+* Minimum
+* Maximum
+
+### Skill Analysis
+
+Technical skills such as:
+
+* SQL
+* Excel
+* Python
+* Tableau
+* Power BI
+* R
+* SAS
+* Oracle
+
+were analyzed to understand their presence and importance in job postings.
+
+### Skill vs Salary
+
+The project also compares technical skills with salary information to understand which skills are associated with stronger salary levels.
+
+---
+
+## 💡 Key Insights
+
+The analysis provides several useful observations:
+
+* SQL is an important skill for Data Analyst positions.
+* Excel continues to be widely relevant in Data Analyst jobs.
+* Python is an important technical skill for modern data analysis.
+* Tableau and Power BI are useful visualization and business-intelligence skills.
+* Different technical skills can be associated with different salary levels.
+* Combining multiple technical skills can improve a Data Analyst's overall skill set.
+* Salary should be analyzed together with job demand when evaluating a skill.
+
+---
+
+# 📈 Project 2 — Advanced Excel Data Analysis
+
+## 📌 Project Overview
+
+This project focuses on a broader analysis of the **technology job market**, including job roles, salaries, countries, employment types, job platforms, and technical skills.
+
+Unlike Project 1, this project uses **advanced Microsoft Excel features** for data transformation, analysis, data modeling, and dashboard development.
+
+The project demonstrates how Excel can be used not only for basic calculations but also as a powerful **data analytics and business intelligence tool**.
+
+---
+
+## 🖼️ Project Dashboard
+
+### Dashboard Preview
+
+⬇️ **REPLACE THIS WITH YOUR PROJECT 2 DASHBOARD IMAGE**
+
+```markdown
+![Project 2 Dashboard](Project-2/images/dashboard.png)
+```
+
+> 📌 Recommended location:
+>
+> `Project-2/images/dashboard.png`
+
+You can also add additional screenshots:
+
+```markdown
+![Power Query Transformation](Project-2/images/power-query.png)
+
+![Pivot Table Analysis](Project-2/images/pivot-table.png)
+
+![Power Pivot Data Model](Project-2/images/power-pivot.png)
 ```
 
 ---
 
-# 📈 Project 2 — Advanced Excel Data Analysis & Business Intelligence
+## 🔗 View Project
 
-Project 2 uses more advanced Excel capabilities for **data transformation, analysis, data modeling, and dashboard development**.
+⬇️ **REPLACE `YOUR_PROJECT_2_LINK` WITH YOUR ACTUAL PROJECT LINK**
+
+```markdown
+👉 [View Project 2 on GitHub](YOUR_PROJECT_2_LINK)
+```
+
+Example:
+
+```markdown
+👉 [View Tech Job Salary Analysis](https://github.com/yourusername/tech-job-salary-analysis)
+```
 
 ---
 
-## 🧰 Advanced Excel Features Used
+## 🎯 Objectives
 
-### 1. Pivot Tables
+The main objectives of this project were:
 
-Pivot Tables were used to summarize and analyze large datasets.
+* Analyze the technology job market.
+* Compare job demand across different technology roles.
+* Analyze salary differences between job roles.
+* Analyze jobs across different countries.
+* Study different employment types.
+* Analyze job-posting platforms.
+* Transform and clean raw data using Power Query.
+* Combine datasets using Append and Merge.
+* Create Pivot Tables and Pivot Charts.
+* Perform advanced statistical analysis.
+* Build a data model using Power Pivot.
+* Create calculations using DAX.
+* Develop an analytical dashboard.
+* Extract meaningful business and career insights.
 
-They were used for:
+---
 
-* Job-count analysis
-* Salary analysis
-* Job-role comparison
-* Country-wise analysis
+# 🛠️ Advanced Excel Features Used
+
+## 1. Pivot Tables
+
+Pivot Tables were used to summarize large amounts of job-market data.
+
+### Used For
+
+* Job count by job role
+* Salary by job role
+* Jobs by country
+* Jobs by employment type
+* Jobs by platform
 * Skill analysis
-* Employment-type analysis
-* Aggregating large amounts of data
+* Category comparisons
 
-Pivot Tables made it possible to analyze thousands of records quickly without manually calculating every value.
+Pivot Tables made it possible to summarize thousands of records quickly and efficiently.
 
 ---
 
-### 2. Advanced Pivot Table Analysis
+## 2. Advanced Pivot Table Analysis
 
-Advanced Pivot Table features were used to create more detailed analysis.
+Advanced Pivot Table features were used for deeper analysis.
 
-Features include:
+### Features Used
 
-* Row and column grouping
+* Row and column fields
 * Value field settings
 * Sorting
 * Filtering
-* Calculated values
-* Percentage calculations
+* Grouping
 * Ranking
-* Grouping categories
+* Percentage calculations
+* Category comparison
 * Drill-down analysis
+
+These features helped convert raw data into useful analytical summaries.
 
 ---
 
-### 3. Pivot Charts
+## 3. Pivot Charts
 
 Pivot Charts were created from Pivot Tables to visually represent the analysis.
 
-Used for:
+### Used For
 
-* Job demand comparison
+* Job-role comparison
 * Salary comparison
-* Job-role analysis
-* Country analysis
+* Country-wise job analysis
 * Employment-type analysis
+* Job-platform analysis
 * Skill distribution
 
-Pivot Charts also make it easier to create dashboards that update when the underlying Pivot Table changes.
+Pivot Charts were also useful for creating dynamic dashboard visualizations.
 
 ---
 
-### 4. Analysis ToolPak
+## 4. Analysis ToolPak
 
-The **Analysis ToolPak** was used for statistical and analytical tasks.
+The **Analysis ToolPak** was used for additional statistical analysis.
 
-It provides additional Excel analysis capabilities such as:
+It provides advanced analytical capabilities within Excel.
+
+### Areas of Analysis
 
 * Descriptive Statistics
-* Regression
 * Correlation
+* Regression
+* Histogram
 * Sampling
 * Moving Average
-* Histogram
-* Other statistical analysis techniques
 
-**Purpose:**
-
-To perform more advanced statistical analysis beyond standard Excel functions.
-
----
-
-### 5. Data Analysis
-
-Advanced analysis techniques were used to extract meaningful information from the dataset.
-
-The analysis included:
-
-* Descriptive statistics
-* Salary analysis
-* Job-demand analysis
-* Category comparison
-* Distribution analysis
-* Relationship analysis
-* Trend identification
+This helped extend the analysis beyond basic Excel functions.
 
 ---
 
 # 🔄 Power Query
 
-Power Query was one of the major advanced tools used in Project 2.
+Power Query was one of the main advanced tools used in Project 2.
 
-It was used for **data extraction, cleaning, transformation, and preparation** before the final analysis.
+It was used for **data extraction, cleaning, transformation, and preparation**.
 
----
-
-### 6. Power Query — Data Import
-
-Power Query can connect to different data sources and bring the data into Excel in a structured format.
-
-It helps reduce repetitive manual data preparation.
+The purpose was to convert raw data into a clean and structured dataset before performing analysis.
 
 ---
 
-### 7. Power Query — Data Cleaning
+## 5. Power Query — Data Cleaning
 
-Power Query was used for data-cleaning operations such as:
+Power Query was used for operations such as:
 
 * Removing unnecessary columns
-* Removing rows
-* Renaming columns
-* Changing data types
+* Removing unnecessary rows
 * Removing duplicates
 * Handling missing values
 * Replacing values
+* Changing data types
+* Renaming columns
+* Filtering data
 * Splitting columns
 * Merging columns
-* Filtering records
+
+These transformations helped prepare the dataset for analysis.
 
 ---
 
-### 8. Advanced Transformation
+## 6. Advanced Data Transformation
 
-Power Query's transformation features were used to prepare the dataset for analysis.
+Power Query was used for advanced transformations.
 
-Examples include:
+### Transformations Include
 
 * Split Column
 * Merge Column
@@ -368,61 +547,60 @@ Examples include:
 * Group By
 * Pivot Column
 * Unpivot Column
-* Change Data Type
 * Conditional Column
 * Custom Column
+* Data Type Conversion
+* Filtering
 
-These transformations help convert raw data into an analysis-ready format.
+These steps created a repeatable data-preparation workflow.
 
 ---
 
-### 9. Append Queries
+## 7. Append Queries
 
-**Append** was used to combine datasets vertically.
+**Append Queries** were used to combine datasets vertically.
 
-Conceptually:
+The basic concept is:
 
 ```text
-Table A
-   +
-Table B
-   +
-Table C
-   ↓
-Combined Table
+Dataset A
+    +
+Dataset B
+    +
+Dataset C
+    ↓
+Combined Dataset
 ```
 
-This is useful when multiple tables contain the same type of information and need to be combined into one dataset.
+Append is useful when multiple tables contain similar columns and need to be combined into one larger dataset.
 
 ---
 
-### 10. Merge Queries
+## 8. Merge Queries
 
-**Merge** was used to combine related datasets horizontally based on matching columns.
+**Merge Queries** were used to combine related datasets using a common column or key.
 
-Conceptually:
+The basic concept is:
 
 ```text
 Table A ─────┐
-             ├── Match Key ──→ Combined Dataset
+             │
+          Common Key
+             │
 Table B ─────┘
+             ↓
+      Combined Dataset
 ```
 
-For example, two tables can be connected using a common field such as:
-
-* Job ID
-* Company
-* Country
-* Job title
-* Another common key
+This technique is useful when information from different tables needs to be connected.
 
 ---
 
-### 11. M Language
+# 🧑‍💻 M Language
 
-Power Query transformations are based on **M language**.
+Power Query uses **M language** to define data-transformation steps.
 
-M was used to understand and create transformation logic behind Power Query operations.
+M was used to understand and control the transformation logic behind Power Query.
 
 Example:
 
@@ -430,32 +608,46 @@ Example:
 = Table.SelectRows(Source, each [Salary] > 50000)
 ```
 
-M language provides greater control over data transformation and allows repeatable transformation steps.
+M language allows transformations to be:
+
+* Repeatable
+* Structured
+* Automated
+* More customizable
 
 ---
 
 # 🧮 Power Pivot
 
-Power Pivot was used for advanced data modeling and analysis.
+Power Pivot was used for **advanced data modeling and analysis**.
 
-It allows multiple tables to be connected and analyzed as part of a data model.
+It allows multiple related tables to be connected through a data model.
 
-Power Pivot was used for:
+### Power Pivot Used For
 
 * Data modeling
-* Managing relationships
-* Connecting multiple tables
+* Creating table relationships
+* Managing multiple tables
 * Creating calculated measures
-* Handling larger datasets
-* Building advanced analytical models
+* Working with larger datasets
+* Performing advanced calculations
 
 ---
 
 # 🧠 DAX
 
-**DAX (Data Analysis Expressions)** was used with Power Pivot for advanced calculations and measures.
+**DAX (Data Analysis Expressions)** was used with Power Pivot for advanced calculations and analytical measures.
 
-Examples of DAX functions include:
+### DAX Concepts Used
+
+* Aggregations
+* Measures
+* Filtering
+* Conditional calculations
+* Table calculations
+* Context-based calculations
+
+### Example Functions
 
 ```text
 SUM()
@@ -469,17 +661,6 @@ IF()
 DIVIDE()
 ```
 
-DAX can be used to create analytical measures such as:
-
-* Total Jobs
-* Average Salary
-* Median/summary measures where appropriate
-* Job Count
-* Distinct Companies
-* Salary comparisons
-* Percentage calculations
-* Filter-based calculations
-
 Example:
 
 ```DAX
@@ -492,133 +673,247 @@ Another example:
 Average Salary = AVERAGE(JobData[Salary])
 ```
 
+DAX allows more flexible calculations than simple worksheet formulas when working with a data model.
+
 ---
 
-# 📊 Advanced Dashboard Development
+# 🔗 Data Modeling
 
-The advanced features were combined to create the final analytical dashboard.
+Power Pivot and DAX were combined to create a structured data model.
 
-### Workflow
+The general workflow was:
 
 ```text
 Raw Data
-   ↓
+    ↓
 Power Query
-   ↓
+    ↓
 Data Cleaning
-   ↓
-Transformation
-   ↓
+    ↓
+Data Transformation
+    ↓
 Append / Merge
-   ↓
+    ↓
 Data Model
-   ↓
+    ↓
 Power Pivot
-   ↓
+    ↓
 DAX Measures
-   ↓
+    ↓
 Pivot Tables
-   ↓
+    ↓
 Pivot Charts
-   ↓
+    ↓
 Dashboard
-   ↓
-Business Insights
+    ↓
+Insights
 ```
 
-This workflow reduces repetitive manual work and creates a more structured approach to data analysis.
+This workflow demonstrates how Excel can be used as an end-to-end data analytics solution.
 
 ---
 
-# 📌 Project 2 Skill Summary
+## 📊 Analysis
 
-```text
-Advanced Microsoft Excel
-│
-├── Pivot Tables
-├── Advanced Pivot Table Analysis
-├── Pivot Charts
-├── Analysis ToolPak
-├── Statistical Analysis
-│
-├── Power Query
-│   ├── Data Cleaning
-│   ├── Data Transformation
-│   ├── Append
-│   ├── Merge
-│   ├── Advanced Transformations
-│   └── M Language
-│
-├── Power Pivot
-│   ├── Data Modeling
-│   ├── Relationships
-│   └── Measures
-│
-└── DAX
-    ├── Calculated Measures
-    ├── Aggregations
-    ├── Filtering
-    └── Advanced Calculations
+The project analyzes the technology job market from multiple perspectives.
+
+### Job Role Analysis
+
+The project compares different roles such as:
+
+* Data Analyst
+* Data Scientist
+* Data Engineer
+* Senior Data Engineer
+* Senior Data Scientist
+* Senior Data Analyst
+* Business Analyst
+* Machine Learning Engineer
+* Software Engineer
+* Cloud Engineer
+
+This helps understand which roles have stronger representation in the dataset.
+
+---
+
+### 💰 Salary Analysis
+
+Salary information was analyzed across different technology roles.
+
+The analysis helps compare:
+
+* Entry-level and senior positions
+* Data-related roles
+* Engineering roles
+* Machine Learning roles
+* Business-related roles
+
+The results provide an overview of salary differences across technology careers.
+
+---
+
+### 🌎 Geographic Analysis
+
+The dataset was analyzed across different countries.
+
+The analysis helps understand:
+
+* Where technology jobs are available
+* Country-wise job distribution
+* Differences in job-market representation
+* Geographic patterns in technology employment
+
+---
+
+### 💼 Employment Type Analysis
+
+Different employment types were analyzed, including:
+
+* Full-time
+* Part-time
+* Contract
+* Internship
+* Temporary
+
+This provides a broader view of how technology jobs are offered.
+
+---
+
+### 🌐 Job Platform Analysis
+
+The project also analyzes job-posting platforms.
+
+Examples include platforms such as:
+
+* Indeed
+* LinkedIn
+* ZipRecruiter
+* Dice
+* Ladders
+* Other job platforms represented in the dataset
+
+This helps understand the distribution of job postings across platforms.
+
+---
+
+### 🧑‍💻 Skills Analysis
+
+The project also considers technical skills associated with technology jobs.
+
+Examples include:
+
+* SQL
+* Python
+* AWS
+* PySpark
+* Tableau
+* Power BI
+* Git
+* Java
+* Kafka
+* Spark
+* Hadoop
+* NoSQL
+
+This helps identify the technical skills that appear across different technology roles.
+
+---
+
+## 💡 Key Insights
+
+The analysis provides several useful observations:
+
+* Data Analyst, Data Scientist, and Data Engineer are strongly represented technology roles in the dataset.
+* Senior-level technical positions generally show higher salary levels.
+* Machine Learning and Data Engineering roles can have strong salary potential.
+* Technology job opportunities vary considerably across countries.
+* Employment type provides another important dimension when analyzing the job market.
+* Modern technology jobs often require combinations of programming, database, cloud, analytics, and visualization skills.
+* Power Query helps make data preparation more structured and repeatable.
+* Power Pivot and DAX provide powerful options for advanced data modeling and analysis.
+
+---
+
+# 🖼️ Project Screenshots
+
+## Project 1
+
+### Main Dashboard
+
+```markdown
+![Project 1 Dashboard](Project-1/images/dashboard.png)
+```
+
+### Analysis
+
+```markdown
+![Project 1 Analysis](Project-1/images/analysis.png)
 ```
 
 ---
 
-# ⚖️ Project 1 vs Project 2
+## Project 2
 
-| Area                    | Project 1 | Project 2 |
-| ----------------------- | --------- | --------- |
-| Microsoft Excel         | ✅         | ✅         |
-| Logical Functions       | ✅         | ✅         |
-| Mathematical Functions  | ✅         | ✅         |
-| Statistical Functions   | ✅         | ✅         |
-| Formatting              | ✅         | ✅         |
-| Conditional Formatting  | ✅         | ✅         |
-| Basic Charts            | ✅         | ✅         |
-| Data Analysis           | ✅         | ✅         |
-| Pivot Tables            | —         | ✅         |
-| Advanced Pivot Tables   | —         | ✅         |
-| Pivot Charts            | —         | ✅         |
-| Analysis ToolPak        | —         | ✅         |
-| Power Query             | —         | ✅         |
-| Advanced Transformation | —         | ✅         |
-| Append Queries          | —         | ✅         |
-| Merge Queries           | —         | ✅         |
-| M Language              | —         | ✅         |
-| Power Pivot             | —         | ✅         |
-| DAX                     | —         | ✅         |
-| Data Modeling           | —         | ✅         |
-| Advanced Dashboard      | —         | ✅         |
+### Main Dashboard
+
+```markdown
+![Project 2 Dashboard](Project-2/images/dashboard.png)
+```
+
+### Power Query
+
+```markdown
+![Power Query Transformation](Project-2/images/power-query.png)
+```
+
+### Pivot Table
+
+```markdown
+![Pivot Table Analysis](Project-2/images/pivot-table.png)
+```
+
+### Power Pivot
+
+```markdown
+![Power Pivot Data Model](Project-2/images/power-pivot.png)
+```
 
 ---
 
-# 💼 Skills Demonstrated Across Both Projects
+# 📚 Overall Skills Demonstrated
 
-Together, these projects demonstrate a progression from **Excel fundamentals to advanced Excel-based data analytics and business intelligence**.
+Through these two projects, I developed and demonstrated skills in:
 
 ### Excel Fundamentals
 
-* Excel Functions
-* Logical Analysis
-* Mathematical Calculations
-* Statistical Analysis
-* Formatting
+* Microsoft Excel
+* Logical Functions
+* Mathematical Functions
+* Statistical Functions
+* Data Formatting
 * Conditional Formatting
+* Excel Tables
+* Sorting & Filtering
 * Charts
-* Data Sorting & Filtering
+* Data Visualization
+* Basic Data Analysis
 
 ### Advanced Excel
 
 * Pivot Tables
+* Advanced Pivot Table Analysis
 * Pivot Charts
 * Analysis ToolPak
 * Power Query
-* Data Transformation
+* Data Cleaning
+* Advanced Data Transformation
 * Append Queries
 * Merge Queries
 * M Language
 * Power Pivot
 * Data Modeling
 * DAX
+* Advanced Dashboard Development
 
 ### Data Analytics
 
@@ -628,6 +923,85 @@ Together, these projects demonstrate a progression from **Excel fundamentals to 
 * Statistical Analysis
 * Data Visualization
 * Dashboard Development
-* Business Insights
 * Data Modeling
+* Insight Generation
+* Business Intelligence Fundamentals
 
+---
+
+# 📈 Learning Progression
+
+These two projects represent my progression in Microsoft Excel and Data Analytics.
+
+```text
+Project 1
+Excel Fundamentals
+      ↓
+Logical Functions
+      ↓
+Mathematical & Statistical Functions
+      ↓
+Formatting & Conditional Formatting
+      ↓
+Charts & Visualization
+      ↓
+Basic Data Analysis
+      ↓
+      
+Project 2
+Advanced Excel
+      ↓
+Pivot Tables & Pivot Charts
+      ↓
+Analysis ToolPak
+      ↓
+Power Query
+      ↓
+Data Transformation
+      ↓
+Append & Merge
+      ↓
+M Language
+      ↓
+Power Pivot
+      ↓
+Data Modeling
+      ↓
+DAX
+      ↓
+Advanced Data Analysis
+      ↓
+Dashboard & Business Insights
+```
+
+---
+
+# 🎓 Purpose of These Projects
+
+These projects were created as practical applications of **Data Analytics using Microsoft Excel**.
+
+The first project focuses on building a strong foundation in Excel functions, statistics, formatting, visualization, and analysis.
+
+The second project builds on those fundamentals and introduces advanced Excel capabilities such as **Power Query, Power Pivot, DAX, Pivot Tables, data transformation, and data modeling**.
+
+Together, the projects demonstrate my ability to work with raw datasets, clean and transform data, perform analysis, build dashboards, and communicate meaningful insights.
+
+---
+
+# 👨‍💻 Author
+
+**Mahendra Kanoda**
+
+BSc Computer Science Student
+
+Interested in:
+
+* 📊 Data Analytics
+* 🤖 Artificial Intelligence
+* 🧠 Machine Learning
+* 💻 Software Development
+* 📈 Business Intelligence
+
+---
+
+⭐ If you find these projects useful, feel free to explore the repository and give it a star!
