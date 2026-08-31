@@ -26,14 +26,10 @@ The project focuses mainly on **Excel fundamentals and practical data analysis**
 
 ### Dashboard Preview
 
-![Project 1 Dashboard]([Project-1/images/dashboard.png](https://github.com/DMJ-monu/excel_project1st_data_analytics/tree/main/Project1_Dashboard#:~:text=5_power_pivot-,Project1_Dashboard,-salary_dashboard.xlsx))
+![Project 1 Dashboard](Project1_Dashboard)
 
 
-> 📌 Upload your dashboard screenshot to your GitHub repository first, preferably inside:
->
-> `Project-1/images/dashboard.png`
-
-The image will then appear directly in your GitHub README.
+<img width="1851" height="720" alt="Screenshot 2026-08-31 152152" src="https://github.com/user-attachments/assets/7eeb1045-ae49-42be-9bde-7194c2385376" />
 
 ---
 
