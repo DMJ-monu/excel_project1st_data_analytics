@@ -797,40 +797,6 @@ The analysis provides several useful observations:
 
 ---
 
-# 🖼️ Project Screenshots
-
-## Project 1
-
-### Main Dashboard
-
-
-![Project 1 Dashboard](<img width="1851" height="720" alt="image" src="https://github.com/user-attachments/assets/832c296f-26a4-4ad2-a60e-33fc16a8fb8b" />
-)
-
-
-
----
-
-## Project 2
-
-### Main Dashboard
-
-
-### Power Query
-
-
-![Power Query Transformation](<img width="1170" height="515" alt="image" src="https://github.com/user-attachments/assets/0415902a-7a09-480f-b7e2-b3818c56ecf5" />
-)
-
-
-### Pivot Table
-
-
-![Pivot Table Analysis](<img width="995" height="483" alt="image" src="https://github.com/user-attachments/assets/92d8280a-d652-456e-b2d8-8ed86fc9c430" />
-)
-
-
----
 
 # 📚 Overall Skills Demonstrated
 
