@@ -31,23 +31,7 @@ The project focuses mainly on **Excel fundamentals and practical data analysis**
 
 <img width="1851" height="720" alt="Screenshot 2026-08-31 152152" src="https://github.com/user-attachments/assets/7eeb1045-ae49-42be-9bde-7194c2385376" />
 
----
 
-## 🔗 View Project
-
-⬇️ **REPLACE `YOUR_PROJECT_1_LINK` WITH YOUR ACTUAL GITHUB PROJECT LINK**
-
-```markdown
-👉 [View Project 1 on GitHub](YOUR_PROJECT_1_LINK)
-```
-
-Example:
-
-```markdown
-👉 [View Data Analyst Job Market Analysis](https://github.com/yourusername/data-analyst-job-market)
-```
-
----
 
 ## 🎯 Objectives
 
@@ -362,40 +346,26 @@ The project demonstrates how Excel can be used not only for basic calculations b
 
 ### Dashboard Preview
 
-⬇️ **REPLACE THIS WITH YOUR PROJECT 2 DASHBOARD IMAGE**
 
-```markdown
-![Project 2 Dashboard](Project-2/images/dashboard.png)
-```
 
-> 📌 Recommended location:
->
-> `Project-2/images/dashboard.png`
+<img width="1170" height="515" alt="image" src="https://github.com/user-attachments/assets/2f868511-656b-4dce-913f-082d5717c2fd" />
 
-You can also add additional screenshots:
 
-```markdown
-![Power Query Transformation](Project-2/images/power-query.png)
+<img width="1337" height="482" alt="image" src="https://github.com/user-attachments/assets/4d605a6b-d98c-46c8-bee6-2278c65417d8" />
 
-![Pivot Table Analysis](Project-2/images/pivot-table.png)
 
-![Power Pivot Data Model](Project-2/images/power-pivot.png)
-```
+<img width="1487" height="485" alt="image" src="https://github.com/user-attachments/assets/af3feb69-04da-4ccb-ac8f-4f09a8be10ee" />
+
+
 
 ---
 
 ## 🔗 View Project
 
-⬇️ **REPLACE `YOUR_PROJECT_2_LINK` WITH YOUR ACTUAL PROJECT LINK**
+⬇️ 
 
-```markdown
-👉 [View Project 2 on GitHub](YOUR_PROJECT_2_LINK)
-```
 
-Example:
-
-```markdown
-👉 [View Tech Job Salary Analysis](https://github.com/yourusername/tech-job-salary-analysis)
+👉 [View Project 2 on GitHub](Project2_Analysis)
 ```
 
 ---
@@ -833,15 +803,11 @@ The analysis provides several useful observations:
 
 ### Main Dashboard
 
-```markdown
-![Project 1 Dashboard](Project-1/images/dashboard.png)
-```
 
-### Analysis
+![Project 1 Dashboard](<img width="1851" height="720" alt="image" src="https://github.com/user-attachments/assets/832c296f-26a4-4ad2-a60e-33fc16a8fb8b" />
+)
 
-```markdown
-![Project 1 Analysis](Project-1/images/analysis.png)
-```
+
 
 ---
 
@@ -849,27 +815,20 @@ The analysis provides several useful observations:
 
 ### Main Dashboard
 
-```markdown
-![Project 2 Dashboard](Project-2/images/dashboard.png)
-```
 
 ### Power Query
 
-```markdown
-![Power Query Transformation](Project-2/images/power-query.png)
-```
+
+![Power Query Transformation](<img width="1170" height="515" alt="image" src="https://github.com/user-attachments/assets/0415902a-7a09-480f-b7e2-b3818c56ecf5" />
+)
+
 
 ### Pivot Table
 
-```markdown
-![Pivot Table Analysis](Project-2/images/pivot-table.png)
-```
 
-### Power Pivot
+![Pivot Table Analysis](<img width="995" height="483" alt="image" src="https://github.com/user-attachments/assets/92d8280a-d652-456e-b2d8-8ed86fc9c430" />
+)
 
-```markdown
-![Power Pivot Data Model](Project-2/images/power-pivot.png)
-```
 
 ---
 
