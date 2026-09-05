@@ -356,6 +356,7 @@ The project demonstrates how Excel can be used not only for basic calculations b
 
 <img width="1487" height="485" alt="image" src="https://github.com/user-attachments/assets/af3feb69-04da-4ccb-ac8f-4f09a8be10ee" />
 
+<img width="1602" height="688" alt="image" src="https://github.com/user-attachments/assets/1459c6e1-c013-407c-af21-f4fa9d26d064" />
 
 
 ---
